@@ -1,0 +1,128 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Portfolio\n"
+"POT-Creation-Date: 2015-03-31 15:16+0100\n"
+"PO-Revision-Date: 2015-03-31 16:25+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:4
+msgid "Not Found"
+msgstr "Kunde ej hittas"
+
+#: 404.php:6
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Det verkar ha blivit något fel. Vill du prova att söka?"
+
+#: archive.php:43 author.php:46 category.php:43 date.php:105 index.php:59
+#: search.php:42 tag.php:46
+msgid "0 Comments"
+msgstr "0 Kommentarer"
+
+#: archive.php:43 author.php:46 category.php:43 date.php:105 index.php:59
+#: search.php:42 tag.php:46
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: archive.php:43 author.php:46 category.php:43 date.php:105 index.php:59
+#: search.php:42 tag.php:46
+msgid "% Comments"
+msgstr "% Kommentarer"
+
+#: functions.php:31
+msgid "Head Menu"
+msgstr "Huvudmey"
+
+#: functions.php:82
+msgid "Skills"
+msgstr "Färdigheter"
+
+#: functions.php:110
+msgid "Sidebar"
+msgstr "Sidomeny"
+
+#: functions.php:158
+msgid "Project Category"
+msgstr "Projekt Kategori"
+
+#: functions.php:168
+msgid "Post Template"
+msgstr "Tamplate för posts"
+
+#: functions.php:185 functions.php:186 functions.php:212
+msgid "Social Media"
+msgstr "Sociala Medier"
+
+#: functions.php:198 functions.php:256
+msgid "Settings saved"
+msgstr "Inställningar sparade"
+
+#: functions.php:213
+msgid "Insert the links to your social media below"
+msgstr "Klistra in länkar till dina sociala medier här nedan"
+
+#: functions.php:243 functions.php:244 functions.php:264
+msgid "OnePage Setup"
+msgstr "OnePage Inställningar"
+
+#: functions.php:265
+msgid "Order your onepage"
+msgstr "Strukturera din OnePage"
+
+#: functions.php:270
+msgid "First Section:"
+msgstr "Sektion ett"
+
+#: functions.php:273
+msgid "Second Section:"
+msgstr "Sektion två"
+
+#: functions.php:276
+msgid "Third Section:"
+msgstr "Sektion tre"
+
+#: functions.php:279
+msgid "Fourth Section:"
+msgstr "Sektion fyra"
+
+#: functions.php:282
+msgid "Fifth Section:"
+msgstr "Sektion fem"
+
+#: index.php:75
+msgid "Older posts"
+msgstr "Äldre inlägg"
+
+#: index.php:76
+msgid "Newer posts"
+msgstr "Nyare inlägg"
+
+#: library/widget_frontpage.php:7
+msgid "Frontpage widget"
+msgstr "Frontpage widget"
+
+#: library/widget_frontpage.php:9
+msgid "Used on frontpage for image links"
+msgstr "Används på FrontPage för länkar till bilder"
+
+#~ msgid "Project URL"
+#~ msgstr "Projekt URL"
+
+#~ msgid "Box title"
+#~ msgstr "Titel"
+
+#~ msgid "Project category"
+#~ msgstr "Projektkategori"

@@ -1,0 +1,303 @@
+/************************************************************/
+/************************** GENERAL *************************/
+/************************************************************/
+h1, h2, li, a{
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2, h4 {
+	font-weight: normal;
+}
+
+p {
+	font-family: 'Josefin Sans', sans-serif;
+	line-height: 1.5em;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+button {
+	background-color: #008080;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	height: 50px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 0.8em;
+	text-transform: uppercase;
+	width: 200px;
+
+	p, a {
+		color: white;
+		font-size: 1em;
+		line-height: 50px;
+		margin-top: 0;
+		margin-bottom: 0;
+		text-align: center;
+		text-transform: uppercase;
+		vertical-align: middle;
+	}
+	
+	.fa {
+		padding-right: 5px;
+	}
+	
+	&:hover {
+		color: white;
+		background-color: #66CCCC;
+		border-radius: 10px;
+		border: none;
+		outline: none;
+	}
+}
+
+.button2 {
+	background: white;
+	border: solid 1px #008080;
+	color: #008080;
+	margin-left: 1em;
+	
+	.fa {
+		padding-right: 5px;
+	}
+	
+	&:hover {
+		color: white;
+		background-color: #008080;
+	}
+}
+/************************************************************/
+/**************************** MENU **************************/
+/************************************************************/
+.main-menu {
+	.menu{
+		height: 3em;
+		position: fixed;
+		width: 100%;
+		z-index: 1000 !important;
+		
+		nav{				
+			ul{
+				margin: 0 auto;
+				
+				li{
+					text-transform: uppercase;
+					
+					a {
+						color: black;
+						font-size: 1em;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+	
+	.menu-color {
+		background-color: rgba(255, 255, 255, 0.7);
+		//border-bottom: solid 1px #f3f3f3;
+	}
+}
+
+/************************************************************/
+/*************************** HEADER *************************/
+/************************************************************/
+header{
+	background: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)); /*Safari 5.1-6*/
+  	background: -o-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)); /*Opera 11.1-12*/
+  	background: -moz-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)); /*Fx 3.6-15*/
+  	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/cloud.png");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-size: cover;
+	text-align: center;
+	width: 100%;
+	
+	height: 100%;
+
+	h1, h2{
+		color: #333333;
+		text-transform: uppercase;
+	}
+	
+	h1{
+		margin-top: 0;
+	}
+	
+	.circle {
+		background: white;
+		border-radius: 150px 150px 0 0;
+	     -moz-border-radius: 150px 150px 0 0;
+	     -webkit-border-radius: 150px 150px 0 0;
+		bottom: -20px;
+		height: 80px;
+		left: 50%;
+		margin-left: -75px;
+		position: absolute;
+		width: 150px;
+	}
+	
+	.fa {
+		color: black;
+		font-size: 2em;
+		position: absolute;
+		bottom: 15px;
+		left: 50%;
+		margin-left: -15.9px;
+		z-index: 100000;
+	}
+}
+
+/************************************************************/
+/************************* FRONTPAGE ************************/
+/************************************************************/
+.wrapper{
+	width: 100%;
+	
+	h2{
+		margin-top: 0;
+		padding-top: 3em;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	
+	p{
+		padding-bottom: 2em;
+		text-align: center;
+	}
+	
+	.about, .what-i-do {
+		width: 100%;
+		padding-bottom: 2em;
+		
+		.content {
+			margin: 0 auto;
+			text-align: center;
+			
+			img {
+				height: auto;
+			}		
+		}
+	}
+	
+	.about{						
+		.images-about{
+			margin: 0 auto;
+			
+			.image-about{				
+				img{
+					width: 100%;
+				}
+			}
+			
+			&:after{
+				clear: both;
+				content: "";
+				display: block;
+			}
+		}
+	}
+	
+	.what-i-do {
+		background-color: #F4F4F4;
+		
+		.content {
+			
+			.skills {
+				text-align: center;
+
+				.skills-info {
+					h3 {
+						font-weight: 300;
+					}
+					
+					.fa {
+						color: #66CCCC;
+						font-size: 2em;
+					}
+				}
+			}
+		}
+	}
+	
+	.projects {
+		.content {
+			.projects-container {
+				margin: 0 auto;
+				width: 90%;
+				
+				button {
+					font-size: 0.8em;
+				}
+				
+				.project-image {
+					img {
+						height: auto;
+						outline: solid #F4F4F4 1px;
+						width: 100%;
+					}
+				}
+				
+				.project-description {
+					color: black;
+					text-align: center;
+				}				
+			}
+		}
+	}
+	
+	.contact {
+		background: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)); /*Safari 5.1-6*/
+	  	background: -o-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)); /*Opera 11.1-12*/
+	  	background: -moz-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)); /*Fx 3.6-15*/
+	  	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/fog.png");
+		background-repeat: no-repeat;
+		background-position: left bottom;
+		background-size: cover;
+		width: 100%;
+		
+		.content {
+			text-align: center;
+			
+			.social-media {
+				padding-top: 5%;
+				
+				.fa {
+					z-index: 1;
+				}
+				
+				.fa-circle {
+					color: #66CCCC;
+					
+					&:visited {
+						color: #66CCCC;
+					}
+				}
+			}
+		}
+	}
+}
+
+/************************************************************/
+/********************** SINGLE-PROJECT **********************/
+/************************************************************/
+.single-project-wrapper {
+	width: 100%;
+	
+	.single-project-content {
+		margin: 0 auto;
+		
+		h3 {
+			text-transform: uppercase;
+		}
+	}
+}
